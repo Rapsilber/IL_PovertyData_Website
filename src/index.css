@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  width: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e3f2fd;
+  color: #2f2f2f;
+}
+
+select {
+  background-color: #db5461;
+  color: #fafafa;
+  border: solid 2px #2f2f2f;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+::placeholder {
+  color: #fafafa;
+}
+
+.body {
+  width: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #2f2f2f;
+  color: #fafafa;
+  border: solid 2px #2f2f2f;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  max-height: 45px;
+  margin-top: 15px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #db5461;
+  border: solid 2px #2f2f2f
+}
+
+.container {
+  max-width: auto;
+  margin: 20px auto;
+  overflow: auto;
+  min-height: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 5%;
+  margin-left: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+.exBtn {
+  margin: 10px;
+  text-align: center;
+}
+
+.filterOptions {
+  text-align: center;
+  margin: 75px;
+}
+
+.filterTitles {
+  text-align: center;
+  margin-bottom: -75px;
+}
+
+.footer {
+  font-size: 11px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.title {
+  text-shadow: -2px 1px #8aa29e;
+  font-weight: bold;
+  padding-left: 15px;
+  border-bottom: solid 5px #db5461;
+  border-left: solid 5px #db5461;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#cName {
+  display: inline;
+  margin: 10px;
+}
+
+#infographics {
+  display: none;
+  text-align: center;
+}
